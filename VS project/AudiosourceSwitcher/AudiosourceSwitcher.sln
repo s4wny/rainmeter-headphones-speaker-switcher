@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AudiosourceSwitcher", "AudiosourceSwitcher\AudiosourceSwitcher.vcxproj", "{AB30ED6F-C88E-443D-96D1-2DF4E102EB6A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AB30ED6F-C88E-443D-96D1-2DF4E102EB6A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{AB30ED6F-C88E-443D-96D1-2DF4E102EB6A}.Debug|Win32.Build.0 = Debug|Win32
+		{AB30ED6F-C88E-443D-96D1-2DF4E102EB6A}.Release|Win32.ActiveCfg = Release|Win32
+		{AB30ED6F-C88E-443D-96D1-2DF4E102EB6A}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
