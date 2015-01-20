@@ -59,7 +59,7 @@ int APIENTRY _tWinMain(_In_ HINSTANCE hInstance,
 				pDevices->GetCount(&count);
 				if (SUCCEEDED(hr))
 				{
-					for (int i = 0; i < count; i++)
+					for (unsigned int i = 0; i < count; i++)
 					{
 						IMMDevice *pDevice;
 						hr = pDevices->Item(i, &pDevice);
@@ -80,7 +80,7 @@ int APIENTRY _tWinMain(_In_ HINSTANCE hInstance,
 									{
 										// if no options, print the device
 										// otherwise, find the selected device and set it to be default
-										if (option == -1) sprintf("Audio Device %d: %ws\n", i, friendlyName.pwszVal);
+										//if (option == -1) sprintf("Audio Device %d: %ws\n", i, friendlyName.pwszVal);
 										if (i == option) SetDefaultAudioPlaybackDevice(wstrID);
 										PropVariantClear(&friendlyName);
 									}
